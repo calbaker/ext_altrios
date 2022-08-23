@@ -1,5 +1,3 @@
-use altrios_core;
-
 fn main() {
     let mut loco_sim = altrios_core::consist::locomotive::loco_sim::LocomotiveSimulation::default();
     loco_sim.walk();
