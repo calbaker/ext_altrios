@@ -1,0 +1,19 @@
+[package]
+name = "ext_altrios"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# for git to work, you may need to run:
+# ```
+# eval `ssh-agent -s`
+# ssh-add
+# cargo build
+# ```
+
+[dependencies]
+altrios-core = { git = "ssh://git@github.com/NREL/ALTRIOS.git" }
+
+# [net]
+# git-fetch-with-cli = true
